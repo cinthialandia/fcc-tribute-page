@@ -1,0 +1,73 @@
+body {
+  background-color: #fcfcfc;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  /* Eliminar el margin por defecto que Chrome le pone al Body */
+  margin: 0;
+}
+h1 {
+  font-size: 6em;
+}
+h2 {
+  font-size: 2em;
+}
+a {
+  color: #dc80a8;
+}
+mark {
+  background-color: #ffc8de;
+  font-weight: bold;
+  font-style: italic;
+}
+mark::after {
+  content: " 👑 ";
+  font-style: normal;
+}
+mark::before {
+  content: "\00a0 ";
+}
+/* El tamaño máximo de nuextra página es 1200px */
+main {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+header {
+  padding: 15px;
+}
+
+header h1 {
+  font-family: allura, cursive;
+  text-align: center;
+  color: #dc80a8;
+  margin: 0;
+  text-shadow: -3px -3px #75143f;
+}
+header h2 {
+  text-align: center;
+  color: #787975;
+  font-weight: bold;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  color: #787975;
+}
+section {
+  margin: 60px 0;
+}
+.timeline li {
+  margin: 20px 0;
+}
+.quote {
+  text-align: center;
+  font-style: italic;
+}
+footer {
+  text-align: center;
+  margin: 60px 0;
+}
