@@ -72,6 +72,9 @@ footer {
   text-align: center;
   margin: 60px 0;
 }
+/*We use flexbox and flex-direction because the image needs to be center but, 
+the default of flex-box its row and bring the photo with the text, 
+so I need the elements on rows*/
 #img-div {
   display: flex;
   align-items: center;
