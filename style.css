@@ -30,6 +30,7 @@ mark::before {
 main {
   max-width: 1200px;
   margin: 0px auto;
+  padding: 15px;
 }
 
 header {
@@ -83,5 +84,6 @@ footer {
   }
   h2 {
     font-size: 1.3em;
+    text-align: center;
   }
 }
