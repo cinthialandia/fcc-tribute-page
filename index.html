@@ -17,24 +17,29 @@
   </head>
   <body>
     <!-- Container de toda la pagina-->
-    <main>
+    <main id="main">
       <!-- Cabecera de la pagina -->
       <header>
-        <h1>Britney Jean Spears</h1>
+        <h1 id="title">Britney Jean Spears</h1>
         <h2>"Oops!... I Did It Again"</h2>
       </header>
 
       <!-- Imagen Cover (principal)-->
-      <figure>
-        <img class="photo" src="images/bs.jpg" alt="It's Britney B*tch" />
-        <figcaption>
+      <figure id="img-div">
+        <img
+          id="image"
+          class="photo"
+          src="images/bs.jpg"
+          alt="It's Britney B*tch"
+        />
+        <figcaption id="img-caption">
           Often referred to in interviews, cover stories and promotional
           material as the new <mark>princess of pop</mark>.
         </figcaption>
       </figure>
 
       <!-- Contenido Cronologico de Britney-->
-      <section class="timeline">
+      <section id="tribute-info" class="timeline">
         <h2>Here's a time line of Britney Spears's life:</h2>
         <ul>
           <li><strong>1981</strong> - Born in McComb, Mississippi, U.S.</li>
@@ -124,10 +129,20 @@
       </section>
       <footer>
         If you have time, you can read more about the pricess of pop in her
-        <a href="https://www.britneyspears.com/news" target="_blank">
+        <a
+          id="tribute-link"
+          href="https://www.britneyspears.com/news"
+          target="_blank"
+        >
           Official Page! ❤
         </a>
       </footer>
     </main>
+
+    <!-- Test the Freecodecamp -->
+    <script
+      type="text/javascript"
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+    ></script>
   </body>
 </html>

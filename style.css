@@ -51,6 +51,7 @@ header h2 {
 
 figure img {
   width: 100%;
+  max-width: 900px;
 }
 
 figcaption {
@@ -70,4 +71,9 @@ section {
 footer {
   text-align: center;
   margin: 60px 0;
+}
+#img-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
